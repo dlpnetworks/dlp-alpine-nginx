@@ -1,3 +1,8 @@
+# Apline+Nginx baseimage
+#
+# This image is intended for use as a baseimage for
+# nginx-based images (proxy, static, php, etc).
+
 FROM alpine:3.2
 MAINTAINER David Jia Wei Li david@david-li.com
 RUN apk add --update nginx && rm -rf /var/cache/apk/*

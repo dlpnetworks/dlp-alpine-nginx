@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t dlp-alpine-nginx .
+docker build -t dlpnet/dlp-alpine-nginx .
